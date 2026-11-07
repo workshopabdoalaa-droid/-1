@@ -1,0 +1,6 @@
+{
+  "name": "YUM Restaurant | مطعم يم",
+  "description": "الموقع الرسمي لمطعم YUM في السنطة وأبو الجهور بمحافظة الغربية. تصفح المنيو الأصلية، اختر وجباتك المفضلة، واطلب أونلاين بسهولة مع الدفع كاش عند الاستلام.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1146 @@
+{
+  "restaurantInfo": {
+    "name": "YUM Restaurant",
+    "nameAr": "مطعم يم",
+    "phone": "01061119339",
+    "whatsapp": "+201061119339",
+    "address": "P4G8+VFW, Fawzi Abd El-Qader, Abu Al Juhour, El Santa, Gharbia Governorate, Egypt",
+    "addressShort": "السنطة - فوزي عبد القادر (أبو الجهور) - بجوار طلعت الشاذلي",
+    "city": "السنطة",
+    "governorate": "الغربية",
+    "googleMapsUrl": "https://maps.app.goo.gl/t76ZgZqfS7GPgXxQ8",
+    "googleRating": 4.1,
+    "reviewsCount": 130,
+    "openingHours": "يوميًا من الساعة 10:00 صباحًا حتى 3:00 صباحًا",
+    "isOpen": true,
+    "headline": "الطعم اللي يستاهل التجربة",
+    "tagline": "أشهى وجبات الكرسبي، البرجر والبيتزا الإيطالية الطازجة في السنطة وأبو الجهور",
+    "announcement": "🔥 عرض كل ثلاثاء: اشترِ 3 بيتزا حجم وسط من اختيارك وادفع ثمن 2 فقط!"
+  },
+  "deliveryZones": [
+    {
+      "id": "el-santa",
+      "name": "السنطة (مدينة السنطة)",
+      "nameEn": "El Santa",
+      "fee": 20,
+      "isConfigured": true,
+      "isEnabled": true,
+      "estimatedMinutes": "25 - 40 دقيقة"
+    },
+    {
+      "id": "abu-al-juhour",
+      "name": "قرية أبو الجهور",
+      "nameEn": "Abu Al Juhour",
+      "fee": 25,
+      "isConfigured": true,
+      "isEnabled": true,
+      "estimatedMinutes": "30 - 45 دقيقة"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "الكل",
+      "nameEn": "All"
+    },
+    {
+      "id": "meals",
+      "name": "وجبات كرسبي ومشويات",
+      "nameEn": "Meal's",
+      "description": "وجبات عائلية وفردية مع الأرز والبطاطس والثومية"
+    },
+    {
+      "id": "express",
+      "name": "وجبات إكسبريس",
+      "nameEn": "Express Meal's",
+      "description": "وجبات خفيفة وسريعة مع الأرز أو الفرايز والثومية"
+    },
+    {
+      "id": "sandwiches-beef",
+      "name": "برجر وساندوتشات لحم",
+      "nameEn": "Beef Sandwich",
+      "description": "لحم بلدي صافي 100% بدون إضافات بخلطة يم المميزة"
+    },
+    {
+      "id": "sandwiches-chicken",
+      "name": "ساندوتشات دجاج",
+      "nameEn": "Chicken Sandwich",
+      "description": "صدور مقرمشة مخلية وشرائح استربس بصوصات شهية"
+    },
+    {
+      "id": "ranch-festival",
+      "name": "مهرجان الرانش",
+      "nameEn": "Ranch Festival",
+      "description": "أشهى ساندوتشات ورولات غارقة بصوص الرانش الأصلي"
+    },
+    {
+      "id": "pizza",
+      "name": "بيتزا يم الإيطالية",
+      "nameEn": "Pizza",
+      "description": "عجينة طازجة يوميًا مع جبنة موزاريلا فاخرة وخضار طازج"
+    },
+    {
+      "id": "funky-fries",
+      "name": "فانكي فرايز",
+      "nameEn": "Funky Fries",
+      "description": "بطاطس مقرمشة غارقة بصوص الجبنة الشيدر والدجاج المقرمش"
+    },
+    {
+      "id": "appetizers",
+      "name": "مقبلات وإضافات",
+      "nameEn": "Appetizers & Sides",
+      "description": "أصابع موزاريلا، كول سلو، ثومية، بطاطس ومشروبات"
+    },
+    {
+      "id": "offers",
+      "name": "العروض الخاصة",
+      "nameEn": "Special Offers",
+      "description": "أفضل توفير مع عروض تريبل وعروض التوفير الأسبوعية"
+    }
+  ],
+  "products": [
+    {
+      "id": "meal-family",
+      "name": "فاميلي ميل (Family Meal)",
+      "nameEn": "Family Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 450,
+      "description": "21 قطعة إستربس دجاج مقرمش + فرايز كبير + كول سلو كبير + 4 خبز + 1 لتر بيبسي + 1 بولة صوص شيدر كبير.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (أعلى اليمين)",
+      "additions": [
+        {
+          "id": "add-cheddar",
+          "name": "بولة صوص شيدر إضافية",
+          "price": 37
+        },
+        {
+          "id": "add-coleslaw",
+          "name": "كول سلو إضافي",
+          "price": 25
+        },
+        {
+          "id": "add-garlic",
+          "name": "ثومية إضافية",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "meal-super-crispy",
+      "name": "سوبر كرسبي (Super Crispy)",
+      "nameEn": "Super Crispy Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 140,
+      "description": "شرائح صدور دجاج مخلية مقرمشة + كول سلو + أرز بسمتي فاخر + بطاطس مقلية مقرمشة + ثومية + خبز طازج.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (أعلى اليسار)",
+      "sizes": [
+        {
+          "name": "3 قطع كرسبي",
+          "price": 140
+        },
+        {
+          "name": "5 قطع كرسبي",
+          "price": 167
+        },
+        {
+          "name": "7 قطع كرسبي",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": "meal-shish",
+      "name": "وجبة الشيش (Shish Meal)",
+      "nameEn": "Shish Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 177,
+      "description": "8 قطع أوراك دجاج متبلة ومشوية على الفحم + أرز بسمتي + بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (منتصف اليسار)"
+    },
+    {
+      "id": "meal-finger-grill",
+      "name": "فنجر جريل (Finger Grill)",
+      "nameEn": "Finger Grill Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 155,
+      "description": "5 شرائح صدور دجاج متبلة ومشوية على الجريل + أرز بسمتي + بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (المنتصف)"
+    },
+    {
+      "id": "meal-mix-plus",
+      "name": "ميكس بلس (Mix Plus)",
+      "nameEn": "Mix Plus Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 172,
+      "description": "ربع دجاج متبل مشوي + 1 سيخ كفتة بلدي + 2 قطعة شيش دجاج + أرز بسمتي + بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "isAvailable": true,
+      "isFeatured": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (منتصف اليمين)"
+    },
+    {
+      "id": "meal-smart",
+      "name": "سمارت ميل (Smart Meal)",
+      "nameEn": "Smart Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 177,
+      "description": "نصف دجاج حار متبل ومشوي على الطريقة المكسيكية + صوص حار + أرز بسمتي + بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (أسفل اليمين)"
+    },
+    {
+      "id": "meal-star-mashwy",
+      "name": "ستار مشوي (Star Grilled)",
+      "nameEn": "Star Grilled Meal",
+      "categoryId": "meals",
+      "categoryName": "وجبات كرسبي ومشويات",
+      "price": 130,
+      "description": "ربع فراخ مشوي متبل على الفحم + أرز بسمتي + بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الوجبات - ديسمبر 2025 (أسفل اليسار)"
+    },
+    {
+      "id": "express-kofta",
+      "name": "كفتة إكسبريس ميل",
+      "nameEn": "Kofta Express Meal",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 127,
+      "description": "4 قطع كفتة لحم بلدي مشوية شهية مع أرز بسمتي أو بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 1)"
+    },
+    {
+      "id": "express-mosahab",
+      "name": "مسحب إكسبريس ميل",
+      "nameEn": "Mosahab Express Meal",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 127,
+      "description": "5 قطع شرائح مسحب مقرمش مع أرز بسمتي أو بطاطس + ثومية + خبز.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 2)"
+    },
+    {
+      "id": "express-strips",
+      "name": "استربس إكسبريس ميل",
+      "nameEn": "Strips Express Meal",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 99,
+      "description": "3 شرائح استربس فرايد الدجاج المقرمش مع أرز بسمتي مبهر مقطع بصوص الشيدر اللذيذ (سبايسي أو عادي) مع صوص الثومية.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 3)"
+    },
+    {
+      "id": "express-fillet",
+      "name": "فيليه إكسبريس ميل",
+      "nameEn": "Fillet Express Meal",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 99,
+      "description": "صدر الدجاج كامل غريلد مشوي مع أرز بسمتي مبهر مقطع بصوص الشيدر اللذيذ (سبايسي أو عادي) مع صوص الثومية.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 4)"
+    },
+    {
+      "id": "express-cordon",
+      "name": "كوردن إكسبريس ميل",
+      "nameEn": "Cordon Express Meal",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 99,
+      "description": "3 شرائح كوردن بلو محشوة مع أرز بسمتي مبهر مقطع بصوص الشيدر اللذيذ (سبايسي أو عادي) مع صوص الثومية.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 5)"
+    },
+    {
+      "id": "express-rizo-pop",
+      "name": "ريزو بوب كوردن",
+      "nameEn": "Rizo Pop Cordon",
+      "categoryId": "express",
+      "categoryName": "وجبات إكسبريس",
+      "price": 99,
+      "description": "كرات كوردن الدجاج المحشية شيدر مع أرز بسمتي مبهر ومغطى بسخاء بصوص الشيدر اللذيذ.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (إكسبريس ميلز 6)"
+    },
+    {
+      "id": "beef-double-cheese",
+      "name": "دبل تشيز برجر",
+      "nameEn": "Double Cheese Burger",
+      "categoryId": "sandwiches-beef",
+      "categoryName": "برجر وساندوتشات لحم",
+      "price": 149,
+      "description": "200 جرام لحم بلدي صافي طازج بدون أي إضافات، شريحتين جبنة شيدر مذابة، خس طازج، مايونيز، شرائح طماطم وبصل، صوص الشيدر الغني في خبز بريوش محمص.",
+      "image": "/src/assets/images/food_gourmet_burger_1793990897391.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (بيف ساندوتش 1)"
+    },
+    {
+      "id": "beef-cheese-burger",
+      "name": "تشيز برجر سينجل",
+      "nameEn": "Cheese Burger",
+      "categoryId": "sandwiches-beef",
+      "categoryName": "برجر وساندوتشات لحم",
+      "price": 105,
+      "description": "100 جرام لحم بلدي صافي بدون أي إضافات مع خس ومايونيز وبصل وطماطم وصوص الشيدر الذائب.",
+      "image": "/src/assets/images/food_gourmet_burger_1793990897391.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (بيف ساندوتش 2)"
+    },
+    {
+      "id": "beef-mega-mushroom",
+      "name": "ميجا مشروم برجر",
+      "nameEn": "Mega Mushroom Burger",
+      "categoryId": "sandwiches-beef",
+      "categoryName": "برجر وساندوتشات لحم",
+      "price": 105,
+      "description": "150 جرام لحم بلدي صافي بدون إضافات مع قطع المشروم الطازج، مايونيز، طماطم وصوص الشيدر.",
+      "image": "/src/assets/images/food_gourmet_burger_1793990897391.jpg",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (بيف ساندوتش 3)"
+    },
+    {
+      "id": "beef-onion-burger",
+      "name": "أونيون برجر كراميل",
+      "nameEn": "Caramelized Onion Burger",
+      "categoryId": "sandwiches-beef",
+      "categoryName": "برجر وساندوتشات لحم",
+      "price": 105,
+      "description": "150 جرام لحم بلدي صافي بدون إضافات مع بصل مكرمل حلو ومايونيز وصوص الشيدر الفاخر.",
+      "image": "/src/assets/images/food_gourmet_burger_1793990897391.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (بيف ساندوتش 4)"
+    },
+    {
+      "id": "sandwich-kofta",
+      "name": "ساندوتش كفتة بلدي",
+      "nameEn": "Kofta Sandwich",
+      "categoryId": "sandwiches-beef",
+      "categoryName": "برجر وساندوتشات لحم",
+      "price": 89,
+      "description": "كفتة لحم بلدي مشوية على الفحم مع طماطم، خس، مايونيز، وشرائح بصل.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - أسفل الورقة",
+      "sizes": [
+        {
+          "name": "حجم وسط",
+          "price": 89
+        },
+        {
+          "name": "حجم كبير",
+          "price": 119
+        }
+      ]
+    },
+    {
+      "id": "chicken-double-fillet",
+      "name": "دبل تشكن فيليه",
+      "nameEn": "Double Chicken Fillet",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 149,
+      "description": "طبقتين صدور دجاج مخلية مقرمشة مع رانش صوص، خس، طماطم، وصوص الشيدر الذائب.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (تشكن ساندوتش 1)"
+    },
+    {
+      "id": "chicken-double-strips",
+      "name": "دبل استربس",
+      "nameEn": "Double Strips Sandwich",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 149,
+      "description": "شرائح استربس الدجاج المقرمشة المضاعفة مع مايونيز صوص، خس، طماطم وصوص الشيدر.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (تشكن ساندوتش 2)"
+    },
+    {
+      "id": "chicken-crunchy",
+      "name": "كرانشي برجر دجاج",
+      "nameEn": "Crunchy Chicken Burger",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 105,
+      "description": "شرائح استربس دجاج مقرمشة مع رانش صوص، خس، طماطم وصوص الشيدر.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (تشكن ساندوتش 3)"
+    },
+    {
+      "id": "chicken-crispy-burger",
+      "name": "كرسبي برجر دجاج",
+      "nameEn": "Crispy Chicken Burger",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 105,
+      "description": "شرائح صدور دجاج كرسبي مع رانش صوص، خس، طماطم وصوص الشيدر.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (تشكن ساندوتش 4)"
+    },
+    {
+      "id": "chicken-buffalo-crispy",
+      "name": "تشكن بافلو كرسبي",
+      "nameEn": "Chicken Buffalo Crispy",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 65,
+      "description": "صدور دجاج كاملة مقرمشة مع صوص بافلو حار، خس، طماطم وجبنة شيدر.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "حجم وسط",
+          "price": 65
+        },
+        {
+          "name": "حجم كبير",
+          "price": 99
+        }
+      ]
+    },
+    {
+      "id": "chicken-chili",
+      "name": "تشيلي تشيكن حار",
+      "nameEn": "Chili Chicken Sandwich",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 65,
+      "description": "شرائح دجاج مقرمشة حارة بصوص التشيلي المميز مع خس وطماطم.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "حجم وسط",
+          "price": 65
+        },
+        {
+          "name": "حجم كبير",
+          "price": 99
+        }
+      ]
+    },
+    {
+      "id": "sandwich-shrimp",
+      "name": "ساندوتش جمبري مقرمش",
+      "nameEn": "Crispy Shrimp Sandwich",
+      "categoryId": "sandwiches-chicken",
+      "categoryName": "ساندوتشات دجاج",
+      "price": 89,
+      "description": "جمبري طازج مقرمش بالبقسماط الذهبي مع مايونيز وخس طازج.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025 (أسفل)",
+      "sizes": [
+        {
+          "name": "حجم وسط",
+          "price": 89
+        },
+        {
+          "name": "حجم كبير",
+          "price": 119
+        }
+      ]
+    },
+    {
+      "id": "ranch-buffalo",
+      "name": "رانش بافلو",
+      "nameEn": "Ranch Buffalo Sandwich",
+      "categoryId": "ranch-festival",
+      "categoryName": "مهرجان الرانش",
+      "price": 99,
+      "description": "استربس دجاج مقرمش غارق في صوص الرانش الغني مع لمسة صوص بافلو وخس ومخلل.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو مهرجان الرانش - ديسمبر 2025"
+    },
+    {
+      "id": "ranch-cordon-bleu",
+      "name": "كوردن بلو رانش",
+      "nameEn": "Cordon Bleu Ranch",
+      "categoryId": "ranch-festival",
+      "categoryName": "مهرجان الرانش",
+      "price": 99,
+      "description": "أصابع كوردن بلو دجاج محشية بالجبن مع صوص رانش فاخر وخس ومايونيز.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو مهرجان الرانش - ديسمبر 2025"
+    },
+    {
+      "id": "ranch-tweet-roll",
+      "name": "رانش تويت رول",
+      "nameEn": "Ranch Tweet Roll",
+      "categoryId": "ranch-festival",
+      "categoryName": "مهرجان الرانش",
+      "price": 99,
+      "description": "تورتيلا ملفوفة محشوة بشرائح استربس الدجاج المقرمشة وصوص الرانش الأصلي والخس والجبنة.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "isFeatured": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو مهرجان الرانش - ديسمبر 2025"
+    },
+    {
+      "id": "fries-cheese",
+      "name": "تشيز فرايز شيدر",
+      "nameEn": "Cheese Fries",
+      "categoryId": "funky-fries",
+      "categoryName": "فانكي فرايز",
+      "price": 45,
+      "description": "بطاطس مقرمشة ذهبية ساخنة مغطاة بسخاء بصوص جبنة الشيدر الذائبة.",
+      "image": "/src/assets/images/hero_yum_feast_1793990895319.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو فانكي فرايز - ديسمبر 2025 (1)"
+    },
+    {
+      "id": "fries-popcorn",
+      "name": "تشيز فرايز بوب كورن تشيكن",
+      "nameEn": "Popcorn Chicken Cheese Fries",
+      "categoryId": "funky-fries",
+      "categoryName": "فانكي فرايز",
+      "price": 99,
+      "description": "بطاطس مقلية ذهبية مغطاة بكرات بوب كورن الدجاج المقرمش وصوص الشيدر الذائب ورشة توابل.",
+      "image": "/src/assets/images/hero_yum_feast_1793990895319.jpg",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو فانكي فرايز - ديسمبر 2025 (2)"
+    },
+    {
+      "id": "fries-chicken",
+      "name": "فرايز تشيكن",
+      "nameEn": "Fries Chicken Bowl",
+      "categoryId": "funky-fries",
+      "categoryName": "فانكي فرايز",
+      "price": 99,
+      "description": "بطاطس مقلية مع قطع الدجاج المقرمش المتبل وصوصات يم الخاصة.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو فانكي فرايز - ديسمبر 2025 (3)"
+    },
+    {
+      "id": "fries-beef",
+      "name": "بيف فرايز",
+      "nameEn": "Beef Fries Bowl",
+      "categoryId": "funky-fries",
+      "categoryName": "فانكي فرايز",
+      "price": 99,
+      "description": "بطاطس مقلية مقرمشة مغطاة بقطع اللحم المتبل المشوي وصوص الشيدر الفاخر.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو فانكي فرايز - ديسمبر 2025 (4)"
+    },
+    {
+      "id": "fries-big-chicken",
+      "name": "بيك تشيكن فرايز عائلي",
+      "nameEn": "Big Chicken Fries",
+      "categoryId": "funky-fries",
+      "categoryName": "فانكي فرايز",
+      "price": 115,
+      "description": "وجبة بطاطس عائلية ضخمة مع قطع إستربس دجاج وصوص الشيدر والرانش.",
+      "image": "/src/assets/images/hero_yum_feast_1793990895319.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو فانكي فرايز - ديسمبر 2025 (5)"
+    },
+    {
+      "id": "pizza-chicken-ranch",
+      "name": "بيتزا تشيكن رانش",
+      "nameEn": "Chicken Ranch Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 120,
+      "description": "صدور دجاج متبلة، صوص رانش غني ودائري، فلفل أخضر، طماطم، وموزاريلا طبيعية مطاطية.",
+      "image": "/src/assets/images/food_ranch_pizza_1793990896812.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025 (مهرجان الرانش)",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 120
+        },
+        {
+          "name": "وسط (M)",
+          "price": 199
+        },
+        {
+          "name": "كبير (L)",
+          "price": 245
+        }
+      ],
+      "additions": [
+        {
+          "id": "bites-corn",
+          "name": "أطراف محشوة جبنة وذرة (Pizza Bites Corn)",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "pizza-ranch-seafood",
+      "name": "بيتزا رانش سي فود",
+      "nameEn": "Ranch Seafood Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 145,
+      "description": "جمبري طازج، كابوريا، صوص رانش كريمي، فلفل رومي، زيتون أسود، وجبنة موزاريلا سايحة.",
+      "image": "/src/assets/images/food_ranch_pizza_1793990896812.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 145
+        },
+        {
+          "name": "وسط (M)",
+          "price": 230
+        },
+        {
+          "name": "كبير (L)",
+          "price": 290
+        }
+      ]
+    },
+    {
+      "id": "pizza-ranch-beef",
+      "name": "بيتزا رانش بيف",
+      "nameEn": "Ranch Beef Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 115,
+      "description": "لحم بقري مفروم متبل، صوص رانش، فلفل، زيتون وجبنة موزاريلا.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 115
+        },
+        {
+          "name": "وسط (M)",
+          "price": 190
+        },
+        {
+          "name": "كبير (L)",
+          "price": 235
+        }
+      ]
+    },
+    {
+      "id": "pizza-cheese-ranch",
+      "name": "بيتزا تشيز رانش (أجبان)",
+      "nameEn": "Cheese Ranch Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 110,
+      "description": "مزيج أجبان موزاريلا، شيدر، ورومي مع لمسة صوص الرانش الخاص.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 110
+        },
+        {
+          "name": "وسط (M)",
+          "price": 180
+        },
+        {
+          "name": "كبير (L)",
+          "price": 207
+        }
+      ]
+    },
+    {
+      "id": "pizza-jalapeno-chicken",
+      "name": "بيتزا هالابينو دجاج حار",
+      "nameEn": "Jalapeno Chicken Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 120,
+      "description": "شرائح دجاج متبل، قطع فلفل هالابينو مكسيكي حار، صوص طماطم، وموزاريلا.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 120
+        },
+        {
+          "name": "وسط (M)",
+          "price": 199
+        },
+        {
+          "name": "كبير (L)",
+          "price": 245
+        }
+      ]
+    },
+    {
+      "id": "pizza-bbq-chicken",
+      "name": "بيتزا دجاج باربيكيو",
+      "nameEn": "BBQ Chicken Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 120,
+      "description": "دجاج مشوي، صوص باربيكيو مدخن، بصل، فلفل أخضر، وجبنة موزاريلا غنية.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 120
+        },
+        {
+          "name": "وسط (M)",
+          "price": 199
+        },
+        {
+          "name": "كبير (L)",
+          "price": 245
+        }
+      ]
+    },
+    {
+      "id": "pizza-shrimp",
+      "name": "بيتزا جمبري سبيشال",
+      "nameEn": "Shrimp Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 150,
+      "description": "حبات جمبري طازجة، فلفل أخضر، زيتون أسود، صوص طماطم وجبنة موزاريلا.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 150
+        },
+        {
+          "name": "وسط (M)",
+          "price": 222
+        },
+        {
+          "name": "كبير (L)",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": "pizza-strips",
+      "name": "بيتزا دجاج استربس",
+      "nameEn": "Chicken Strips Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 120,
+      "description": "قطع استربس دجاج مقرمش ذهبي، فلفل، زيتون، وجبنة موزاريلا سايحة.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 120
+        },
+        {
+          "name": "وسط (M)",
+          "price": 199
+        },
+        {
+          "name": "كبير (L)",
+          "price": 245
+        }
+      ]
+    },
+    {
+      "id": "pizza-pepperoni",
+      "name": "بيتزا ببروني كلاسيك",
+      "nameEn": "Pepperoni Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 110,
+      "description": "شرائح ببروني بقري أمريكي فاخر مع صوص الطماطم الإيطالي وموزاريلا.",
+      "image": "/src/assets/images/hero_yum_feast_1793990895319.jpg",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 110
+        },
+        {
+          "name": "وسط (M)",
+          "price": 180
+        },
+        {
+          "name": "كبير (L)",
+          "price": 207
+        }
+      ]
+    },
+    {
+      "id": "pizza-supreme",
+      "name": "بيتزا سوبريم مشكلة",
+      "nameEn": "Supreme Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 125,
+      "description": "لحم مفروم، سجق، مشروم، فلفل، بصل، زيتون، وجبنة موزاريلا شهية.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 125
+        },
+        {
+          "name": "وسط (M)",
+          "price": 205
+        },
+        {
+          "name": "كبير (L)",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": "pizza-vegetables",
+      "name": "بيتزا خضروات",
+      "nameEn": "Vegetables Pizza",
+      "categoryId": "pizza",
+      "categoryName": "بيتزا يم الإيطالية",
+      "price": 110,
+      "description": "طماطم، فلفل رومي، مشروم، بصل، زيتون وجبنة موزاريلا خفيفة ولذيذة.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025",
+      "sizes": [
+        {
+          "name": "صغير (S)",
+          "price": 110
+        },
+        {
+          "name": "وسط (M)",
+          "price": 180
+        },
+        {
+          "name": "كبير (L)",
+          "price": 207
+        }
+      ]
+    },
+    {
+      "id": "offer-triple",
+      "name": "عرض تريبل (Triple Offer)",
+      "nameEn": "Triple Offer",
+      "categoryId": "offers",
+      "categoryName": "العروض الخاصة",
+      "price": 480,
+      "description": "3 بيتزا حجم وسط من اختيارك + 8 قطع أجنحة دجاج مشوية حارة + بطاطس مقلية + 3 صوص (ثومية) + 1 لتر بيبسي.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو البيتزا - ديسمبر 2025 (عرض تريبل أعلى اليسار)"
+    },
+    {
+      "id": "offer-tuesday",
+      "name": "عرض كل ثلاثاء (3 بيتزا وسط بسعر 2)",
+      "nameEn": "Tuesday Pizza Offer",
+      "categoryId": "offers",
+      "categoryName": "العروض الخاصة",
+      "price": 360,
+      "description": "اشترِ 3 بيتزا حجم وسط من اختيارك وادفع ثمن 2 فقط! ساري كل يوم ثلاثاء على أنواع مختارة.",
+      "image": "/assets/aistudio/09_yum_poster_5e4ebfe1.png",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "بوستر عروض يم - ديسمبر 2025"
+    },
+    {
+      "id": "app-mix",
+      "name": "ميكس مقبلات يم",
+      "nameEn": "Mix Appetizers",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 125,
+      "description": "أصابع جبنة موزاريلا مقرمشة + قطع بوب كورن دجاج + أجنحة دجاج حارة + صوصات للتغميس.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "isPopular": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو المقبلات - ديسمبر 2025"
+    },
+    {
+      "id": "app-mozzarella-sticks",
+      "name": "أصابع موزاريلا (6 قطع)",
+      "nameEn": "Mozzarella Sticks (6 pcs)",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 80,
+      "description": "أصابع جبنة موزاريلا ذهبية مقرمشة مع شدة الجبن اللذيذة وصوص الثومية أو الكاتشب.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو المقبلات - ديسمبر 2025"
+    },
+    {
+      "id": "app-spicy-wings",
+      "name": "أجنحة دجاج حارة (8 قطع)",
+      "nameEn": "Spicy Chicken Wings (8 pcs)",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 90,
+      "description": "أجنحة دجاج مشوية ومتبلة بصوص حار على الطريقة الخاصة.",
+      "image": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو المقبلات - ديسمبر 2025"
+    },
+    {
+      "id": "app-cheddar-bowl",
+      "name": "بولة صوص شيدر كبير",
+      "nameEn": "Cheddar Sauce Bowl",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 37,
+      "description": "بولة غنية من صوص جبنة الشيدر الأمريكية الذائبة والمميزة.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-combo",
+      "name": "كومبو (بطاطس مقلية + كانز)",
+      "nameEn": "Combo (Fries + Soda)",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 45,
+      "description": "باكيت بطاطس مقلية مقرمشة + كانز بيبسي أو ميرندا مثلج مع أي ساندوتش أو وجبة.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-coleslaw",
+      "name": "سلطة كول سلو طازجة",
+      "nameEn": "Fresh Coleslaw",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 25,
+      "description": "كرنب وجزر مبشور طازج مع دريسينج الكول سلو السري الكريمي اللذيذ.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-garlic-dip",
+      "name": "علبة ثومية سورية فاخرة",
+      "nameEn": "Garlic Dip (Toum)",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 10,
+      "description": "ثومية طازجة ناعمة وكريمية خالية من المواد الحافظة.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-fries-normal",
+      "name": "بطاطس مقلية عادية",
+      "nameEn": "French Fries",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 30,
+      "description": "أصابع بطاطس فارم فريتس مقلية مقرمشة مع ملح خفيف.",
+      "image": "/src/assets/images/food_crispy_chicken_1793990895966.jpg",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-milkshake",
+      "name": "ميلك شيك شوكولاتة / فانيليا",
+      "nameEn": "Milkshake",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 43,
+      "description": "ميلك شيك كريمي مثلج بنكهات لذيذة وغنية.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    },
+    {
+      "id": "app-chocolate-cake",
+      "name": "قطعة شوكليت كيك فاخرة",
+      "nameEn": "Chocolate Cake",
+      "categoryId": "appetizers",
+      "categoryName": "مقبلات وإضافات",
+      "price": 43,
+      "description": "كيكة شوكولاتة طرية غارقة بصوص الشوكولاتة الداكنة.",
+      "image": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "isAvailable": true,
+      "confidenceStatus": "مؤكد من منيو ديسمبر 2025",
+      "menuSource": "منيو الساندوتشات - ديسمبر 2025"
+    }
+  ],
+  "scannedSheets": [
+    {
+      "id": "dec-2025-meals",
+      "title": "قائمة الوجبات الرئيسية (Meals) - ديسمبر 2025",
+      "date": "ديسمبر 2025",
+      "priority": "primary",
+      "imageUrl": "/assets/aistudio/01_meals_2025_1d576ac9.png",
+      "description": "تحتوي على وجبة فاميلي ميل، سوبر كرسبي، وجبة الشيش، فنجر جريل، ميكس بلس، سمارت ميل، وستار مشوي."
+    },
+    {
+      "id": "dec-2025-sandwiches",
+      "title": "قائمة الساندوتشات والإكسبريس وفانكي فرايز - ديسمبر 2025",
+      "date": "ديسمبر 2025",
+      "priority": "primary",
+      "imageUrl": "/assets/aistudio/02_sandwiches_2025_43f12e21.png",
+      "description": "تشمل ساندوتشات اللحم البلدي، الدجاج، الرانش، وجبات إكسبريس، وفانكي فرايز والإضافات الجانبية."
+    },
+    {
+      "id": "dec-2025-pizza",
+      "title": "قائمة البيتزا وعرض تريبل والمقبلات - ديسمبر 2025",
+      "date": "ديسمبر 2025",
+      "priority": "primary",
+      "imageUrl": "/assets/aistudio/03_pizza_2025_8526c784.png",
+      "description": "تشمل تشكيلة بيتزا يم بالأحجام الثلاثة، مهرجان رانش بيتزا، مقبلات وأصابع موزاريلا وعرض تريبل 480 ج."
+    },
+    {
+      "id": "dec-2025-poster",
+      "title": "بوستر عروض وفروع يم - ديسمبر 2025",
+      "date": "ديسمبر 2025",
+      "priority": "primary",
+      "imageUrl": "/assets/aistudio/09_yum_poster_5e4ebfe1.png",
+      "description": "عرض الثلاثاء للبيتزا (3 بيتزا وسط بسعر 2) + أرقام فروع السنطة وزفتى وميت غمر."
+    },
+    {
+      "id": "jan-2024-combo",
+      "title": "منيو الكومبو والوجبات (مرجع يناير 2024)",
+      "date": "يناير 2024",
+      "priority": "reference",
+      "imageUrl": "/assets/aistudio/06_combo_menu_2024_64b61460.png",
+      "description": "صورة مرجعية سابقة للكومبو والعروض لمقارنة الأصناف وتطور الأسعار."
+    },
+    {
+      "id": "oct-2020-classic-red-1",
+      "title": "المنيو الحمراء الكلاسيكية - الصفحة 1 (أكتوبر 2020)",
+      "date": "أكتوبر 2020",
+      "priority": "reference",
+      "imageUrl": "/assets/aistudio/04_classic_menu_red_01215a91.png",
+      "description": "منيو مرجعية تاريخية للأصناف الكلاسيكية (لا تعتمد أسعارها كبيانات حالية)."
+    },
+    {
+      "id": "oct-2020-classic-red-2",
+      "title": "المنيو الحمراء الكلاسيكية - الصفحة 2 (أكتوبر 2020)",
+      "date": "أكتوبر 2020",
+      "priority": "reference",
+      "imageUrl": "/assets/aistudio/05_fried_meals_pizza_red_747403f0.png",
+      "description": "وجبات فرايد وبيتزا كلاسيكية تاريخية لمقارنة المكونات."
+    }
+  ],
+  "orders": [],
+  "adminPin": "2026"
+}
